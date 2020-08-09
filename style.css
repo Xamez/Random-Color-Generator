@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    text-align: center;
+}
+
+header {
+    height: 5rem;
+    background-color: black;
+}
+
+header > h1 {
+    color: white;
+    padding: 1.3rem;
+}
+
+section {
+    padding-top: 12%;
+}
+
+section > h2 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 8%;
+}
+
+#color {
+    background-color: black;
+    padding: 0px 10px;
+    color: white;
+}
+
+#btn {
+    padding: 14px 28px;
+    font-size: 20px;
+    color: black;
+    border: black 2px solid;
+    outline: none;
+    background: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    font-size: 22px;
+}
+
+
+#copy {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    opacity: 0;
+    animation: opacity 0.3s ease-in-out;
+}
+
+#copy.show {
+    opacity: 1;
+}
