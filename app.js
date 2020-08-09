@@ -51,9 +51,11 @@ function copy() {
     const lum = lightOrDark(hex)
     color.style.backgroundColor = (lum === "white") ? "black" : "white";
     color.style.color = lum
+    show.style.color = lum;
+    show.style.backgroundColor = (lum === "white") ? "black" : "white";
     btn.style.color = lum;
-    textColor.style.color = lum;
     btn.style.borderColor = lum;
+    textColor.style.color = lum;
     copy();
  }
 
